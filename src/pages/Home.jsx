@@ -40,11 +40,30 @@ const Home = () => {
           <Banner movies={movies} />
           <UpNext movies={movies} />
         </Wrapper>
+        <h3
+          style={{
+            color: "white",
+            fontFamily: "sans-serif",
+            marginLeft: "0px",
+            paddingLeft: "0px",
+          }}
+        >
+          Favorites Movies
+        </h3>
         <Slides movies={movies} />
+
+        <br />
+        <h3
+          style={{
+            color: "white",
+            fontFamily: "sans-serif",
+            marginLeft: "0px",
+            paddingLeft: "0px",
+          }}
+        >
+          Latest Movies
+        </h3>
         <Slides movies={movies} />
-        {/* <Slides movies={movies} />
-        <Slides movies={movies} />
-        <Slides movies={movies} /> */}
       </Container>
     </>
   );
